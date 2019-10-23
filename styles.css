@@ -1,5 +1,10 @@
+:root {
+    --grid-size: 16;
+}
+
 html {
-    background-color: 
+    background: rgb(85,85,85);
+    background: linear-gradient(90deg, rgba(85,85,85,1) 0%, rgba(105,100,100,1) 100%);
 }
 
 .cell {
@@ -13,19 +18,29 @@ html {
 
 .main {
     display: flex;
+    align-items: center;
+    height: 300px;
+    margin: auto;
+
+}
+
+.header {
+    display: flex;
     justify-content: center;
+}
+
+.control-panel {
 }
 
 #container div {
 }
 
 #grid-wrapper {
-    width: 300px;
-    height: 300px;
+    width: 375px;
+    height: 375px;
     margin: auto;
+    display: flex;
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
     justify-content: stretch;
     border: thin solid black;
 }
