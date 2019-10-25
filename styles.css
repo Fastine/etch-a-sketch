@@ -12,12 +12,9 @@ html {
     background-color: white;
 }
 
-.etched {
-    background-color: black;
-}
-
 .main {
     display: flex;
+    flex-direction: column;
     align-items: center;
     height: 300px;
     margin: auto;
@@ -30,10 +27,9 @@ html {
 }
 
 .control-panel {
+    padding: 5px;
 }
 
-#container div {
-}
 
 #grid-wrapper {
     width: 375px;
